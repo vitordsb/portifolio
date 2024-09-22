@@ -39,21 +39,21 @@ export default function Home() {
     return () => clearInterval(ticker);
   }, [text, delta, isDeleting, loopNum, toRotate]);
   return (
-   <Container>
-     <Content>
-      <Infos>
-        <Name>Dev Vitor</Name>
-        <Function>{<Brilho>{text}</Brilho>}</Function>
-        <Intro>Cursando <Brilho>Sistemas de Informação</Brilho> na faculdade Rio Branco de Cotia/SP, tenho experiência em <Brilho>Desenvolvimento Web Full Stack</Brilho> com o ecossistema <Brilho>Java Script</Brilho>. E esse é meu portifólio feito em <Brilho>Next.js</Brilho> e utilizando as bibliotecas <Brilho>React e Styled Components</Brilho>
-        </Intro>
-        <Links>
-        <Link href="about">
-          <About>Sobre mim<FaArrowRight/></About>
-        </Link>
-        </Links>
-      </Infos>
-        <Img src="/images/logo.jpg" alt="logo" />
-     </Content>
-   </Container>
+    <Container>
+      <Content>
+          <Infos>
+            <Name>Dev Vitor</Name>
+            <Function>{<Brilho>{text}</Brilho>}</Function>
+            <Intro>Cursando <Brilho>Sistemas de Informação</Brilho> na faculdade Rio Branco de Cotia/SP, tenho experiência em <Brilho>Desenvolvimento Web Full Stack</Brilho> com o ecossistema <Brilho>Java Script</Brilho>. E esse é meu portifólio feito em <Brilho>Next.js</Brilho> e utilizando as bibliotecas <Brilho>React e Styled Components</Brilho>
+            </Intro>
+            <Links>
+            <Link href="about">
+              <About>Sobre mim<FaArrowRight/></About>
+            </Link>
+            </Links>
+          </Infos>
+            <Img src="/images/logo.jpg" alt="logo" />
+        </Content>
+      </Container>
   )
 }

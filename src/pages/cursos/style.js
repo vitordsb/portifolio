@@ -12,6 +12,9 @@ export const CursosSection = styled.section`
   @media (min-width: 1280px) { 
     width: 1150px;
   }
+  @media (max-width: 1920px) { 
+    width: 1920px;
+  }
 `;
 
 export const CursosBox = styled.div`

@@ -41,15 +41,15 @@ const NextArrow = (props) => {
   );
 };
 
-const Skills = () => {
+export default function Skills(){
   const settings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 600,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
@@ -99,5 +99,3 @@ const Skills = () => {
     </SkillSection>
   );
 };
-
-export default Skills;

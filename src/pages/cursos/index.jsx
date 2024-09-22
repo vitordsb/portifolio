@@ -41,7 +41,7 @@ const NextArrow = (props) => {
   );
 };
 
-const Cursos = () => {
+export default function Cursos () {
   const settings = {
     dots: false,
     infinite: true,
@@ -101,4 +101,3 @@ const Cursos = () => {
   );
 };
 
-export default Cursos;
