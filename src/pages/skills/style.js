@@ -68,9 +68,12 @@ export const SkillSlider = styled.div`
 `;
 
 export const SkillImage = styled.img`
-  height: 280px;
+  height: 230px;
   @media (max-width: 760px) { 
     height: 180px;
+  }
+  @media (max-width: 1280px) { 
+    height: 150px;
   }
 `;
 

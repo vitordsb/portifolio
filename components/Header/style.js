@@ -10,7 +10,6 @@ export const Container = styled.div`
   border-bottom: 1px solid white;
   @media (max-width: 760px){
     width: 100%;
-    
   }
 `;
 export const Content = styled.div`
@@ -20,8 +19,9 @@ export const Content = styled.div`
   justify-content: space-around;
   @media (max-width: 760px){
     width: 100%;
-    padding: 0 15px;
-    gap: 15px;
+  }
+  @media (max-width: 1280px){
+    width: 85%;
   }
 `;
 export const Links = styled.div`
@@ -39,17 +39,24 @@ export const Links = styled.div`
     color: #4789FB;
     transform: scale(1.025);
   }
+  @media (max-width: 1280px){
+    gap: 0;
+    margin-right: auto;
+    p {
+      font-size: 20px;
+    }
+  }
 `
 export const NavLinks = styled.nav`
   display: flex;
-  margin-left: 15%;
+  margin-left: 5%;
   @media (max-width: 560px) {
     background-color: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     flex-direction: column;
     position: fixed;
     height: 100%;
-    z-index: 9999;
+    z-index: 99;
     top: 0px;
     width: 45%;
     right: ${props => props.sidebar ? '0' : '-100%'};
@@ -58,6 +65,9 @@ export const NavLinks = styled.nav`
       margin: auto;
       margin-top: 60%;
     }
+  }
+  @media (max-width: 1280px) {
+    margin-left: 5%;
   }
 `;
 export const Icons = styled.div`

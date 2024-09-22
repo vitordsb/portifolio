@@ -68,6 +68,7 @@ export const Intro = styled.span`
   width: 680px;
   @media (max-width: 1280px) {
     font-size: 20px;
+    width: 450px;
   }
   @media (max-width: 760px) {
     font-size: 15px;
@@ -97,7 +98,10 @@ export const About = styled.button`
   }
   @media (max-width: 1280px) {
     width: 10rem;
-    font-size: 16px;
+    font-size: 14px;
+    svg {
+      font-size: 18px;
+    }
   }
   @media (max-width: 760px) {
     width: 10rem;
@@ -114,7 +118,7 @@ export const Img = styled.img`
   width: 30rem;
   height: 30rem;
   border-radius: 100%;
-  @media (max-width: 1024px) {
+  @media (max-width: 1280px) {
     width: 13em;
     height: 13em;
   }

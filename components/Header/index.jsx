@@ -226,4 +226,16 @@ const Curriculum = styled.div`
       font-size: 10px;
     }
   }
+  @media (max-width: 1280px) {
+    padding: 5px;
+    margin-left: 0;
+    height: auto;
+    width: 230px;
+    p {
+      font-size: 18px;
+    }
+    a {
+      font-size: 18px;
+    }
+  }
 `

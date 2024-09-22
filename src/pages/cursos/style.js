@@ -9,6 +9,9 @@ export const CursosSection = styled.section`
   @media (max-width: 760px) { 
     width: 315px;
   }
+  @media (min-width: 1280px) { 
+    width: 1150px;
+  }
 `;
 
 export const CursosBox = styled.div`
@@ -39,7 +42,7 @@ export const CursosText = styled.p`
   font-size: 20px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px 0 75px 0;
+  margin: 20px 0 75px 0;
   @media (max-width: 760px) { 
     font-size: 18px;
   }
@@ -66,7 +69,7 @@ export const CursosSlider = styled.div`
   width: 100%;
   margin: auto;
   position: relative;
-  margin-top: -30px;
+  margin-top: -10px;
 
   .slick-slide {
     display: flex;
@@ -85,16 +88,23 @@ export const CursosSlider = styled.div`
     padding: 0;
     margin-top: -60px;
   }
+  @media (max-width: 1280px) { 
+    padding: 0;
+    margin-top: -20px;
+  }
 `;
 
 export const CursosImage = styled.img`
-  height: 450px;
+  height: 350px;
   transition: calc(.3s);
   &:hover{
     transform: scale(1.025);
   }
   @media (max-width: 760px) {
     height: 150px;
+  }
+  @media (max-width: 1280px) { 
+    height: 180px;
   }
 `;
 

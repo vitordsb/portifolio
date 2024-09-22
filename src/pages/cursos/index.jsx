@@ -48,7 +48,7 @@ const Cursos = () => {
     speed: 900,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       {
